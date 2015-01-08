@@ -428,7 +428,7 @@ public class LocationUpdateService extends Service implements LocationListener {
      */
     private void startTone(String name) {
         int tone = 0;
-        int duration = 1000;
+        int duration = 10000;
 
         if (name.equals("beep")) {
             tone = ToneGenerator.TONE_PROP_BEEP;
